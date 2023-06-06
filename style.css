@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-container {
+    background-color: #4d574c;
+    height: 100vh;
+    font-family: Roboto;
+    overflow-y: auto;
+}
+
+.todos-container-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 25px;
+}
+
+.todos-in-container {
+    width: 100%;
+}
+
+.main-heading {
+    color: beige;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.add-todo-input {
+    width: 100%;
+    height: 40px;
+    border-style: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.add-btn {
+    padding: 5px;
+    margin-top: 20px;
+    width: 80px;
+    background-color: rgb(36, 35, 35);
+    color: beige;
+    border-style: none;
+    border-radius: 5px;
+
+}
+
+.sub-heading {
+    color: beige;
+    text-align: left;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.dark-txt {
+    font-size: 30px;
+}
+
+.save-btn {
+    padding: 5px;
+    margin-top: 20px;
+    width: 80px;
+    background-color: beige;
+    color: rgb(36, 35, 35);
+    border-style: none;
+    border-radius: 5px;
+}
+
+.input-checkbox {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    margin-top: 14px;
+}
+
+.label-container {
+    background-image: linear-gradient(to right, #f5f1c4, #f7d9ab);
+    padding: 10px;
+    width: 100%;
+    border-style: none;
+    border-left-style: solid;
+    border-left-color: blueviolet;
+    border-left-width: 6px;
+    border-radius: 8px;
+}
+
+.input-label {
+    width: 95%;
+}
+
+.delete-icon {
+    text-align: right;
+    margin-top: 4px;
+
+}
+
+.task-completed {
+    text-decoration: line-through;
+}
+
+@media screen and (min-width: 768px) {
+    .add-todo-input {
+        width: 800px;
+    }
+
+    .todos-in-container {
+        width: 800px;
+    }
+
+    .label-container {
+        width: 770px;
+    }
+
+    .main-heading {
+        font-size: 50px;
+    }
+
+    .dark-txt {
+        font-size: 40px;
+    }
+
+    .sub-heading {
+        font-size: 30px;
+    }
+
+    .add-btn {
+        padding: 8px;
+    }
+
+    .save-btn {
+        padding: 8px;
+    }
+
+    .add-todo-input {
+        height: 60px;
+    }
+}
